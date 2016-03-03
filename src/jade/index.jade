@@ -1,0 +1,296 @@
+doctype html
+html
+    head
+        meta(name="viewport", content="initial-scale=0.2, user-scalable=no")
+        meta(content="邱弘毅 noootown", property="og:site_name")
+        meta(content="邱弘毅 noootown" property="og:title")
+        meta(content="Watch me and look at me." property="og:description")
+        meta(content="" property="og:url")
+        meta(content="website" property="og:type")
+        meta(content="" property="og:image")
+        
+        title 邱弘毅 noootown
+        link(rel='stylesheet', href='/css/main.css')
+        link(href='https://fonts.googleapis.com/css?family=Indie+Flower', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Jura', rel='stylesheet', type='text/css')
+        link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', rel='stylesheet')
+        script(src='/js/jquery-2.1.4.min.js')
+        script(src='/js/slick.min.js')
+        script(src='/js/scrollreveal.min.js')
+        script(src='/js/typed.min.js')
+        script(src='/js/d3.min.js')
+        script(src='/js/bar.js')
+        script(src='/js/fireworkpoints.js')
+        script(src='/js/fireworkproperties.js')
+        script(src='/js/manager.js')
+        script(src='/js/main.js')
+        style.
+            @font-face {
+            font-family: 'cwTeXHei';
+            font-style: normal;
+            font-weight: 500;
+            src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+            src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
+            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
+            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
+            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
+            }
+    body
+        div#main
+            canvas.mycanvas
+            div.main-block
+                div.icon-block#block-skill
+                    img(src='./images/hammer.png')#hammer
+                    img(src='./images/nail.png')#nail
+                    h3 Skill
+                div.icon-block#block-about
+                    img(src='./images/chat.png')#chat
+                    img(src='./images/person.png')#person
+                    h3 About
+                div.icon-block#block-project
+                    img(src='./images/keyboard.png')#keyboard
+                    img(src='./images/mouse.png')#mouse
+                    h3 Project
+                div.icon-block#block-work
+                    img(src='./images/job.png')#job
+                    img(src='./images/body.png')#body
+                    h3 Work
+            div.word-block
+                div.word-small-block#word-small-block1
+                    h1.title 關於我
+                    div.profile
+                        p.
+                            <br>
+                            <span>姓名：</span>
+                            <br>
+                            <span class="content">邱弘毅(Ian)^500</span>
+                            <br>
+                            <br>
+                            <span>網路ID：</span>
+                            <br>
+                            <span class="content">noootown^500</span>
+                            <br>
+                            <br>
+                            <span>就讀學校：</span>
+                            <br>
+                            <span class="content">交通大學</span>
+                            <br>
+                            <span class="content">電機資訊學士班^500</span>
+                            <br>
+                            <br>
+                            <span>居住地：</span>
+                            <br>
+                            <span class="content">台中市 & 新竹市^500</span>
+                            <br>
+                            <br>
+                            <span>信箱：</span>
+                            <br>
+                            <span class="content">i314i@yahoo.com.tw^500</span>
+                    span#main-typed
+                    div.icon-link
+                        ul
+                            li
+                                a(href="https://www.facebook.com/noootown" target="_new")
+                                    i.fa.fa-facebook-square
+                            li
+                                a(href="https://github.com/noootown" target="_new")
+                                    i.fa.fa-github-square
+                            li
+                                a(href="https://tw.linkedin.com/in/hung-i-chiu-8a7a43105" target="_new")
+                                    i.fa.fa-linkedin-square
+                            li
+                                a(href="https://noootown.wordpress.com/" target="_new")
+                                    i.fa.fa-wordpress
+                        
+                div.word-small-block#word-small-block2
+                    p 攝於：交通大學
+                    p 在做什麼：觀察狗狗睡覺
+            div.page#page-skill
+                div.skill-block#skill-block-web
+                    h1.title#web Web
+                    div.chart#chart-web1
+                div.skill-block#skill-block-other
+                    div.chart#chart-web2
+                    h1.title#other Other
+                    div.chart#chart-other
+                div.skill-block#skill-block-cs
+                    h1.title#cs CS
+                    div.chart#chart-cs
+            div.page#page-about
+                div.typeword-div
+                    div.about-words
+                        p 你好！我的名字叫邱弘毅，很高興你來參觀我的網站^500
+                        p 我住在台中市太平區，是一個熱鬧的小城^1000
+                        p 等等......我要開始講故事囉，右下角返回還來得及^1000
+                        p 國中就讀新光國中，是我難以忘懷的三年^500
+                        p 那三年，吳嵐婷老師和施誌成老師教了我很多事^500
+                        p 我的數學和物理能力也在那時候奠定^500
+                        p 考高中時，正取最後一名考入台中一中科學班^500
+                        p 三年下來，多虧林宗徽導師的教導，我的物理有了一定的實力^500
+                        p 這是我去北京比賽時的照片^1000
+                        p 目前我就讀國立交通大學電機資訊學士班^500
+                        p 平常興趣很多元，沒事喜歡看書、騎單車、打球^500
+                        p 看的書之中，有一半是中國史^3000，一半是資工的書^1000
+                        p 此外，我也喜歡寫網誌，請上網搜尋「沒一村生活點滴」^1000
+                        p 等等......讓我喘口氣......^1000
+                        p 好，我要繼續說了^1000
+                        p 關於寫程式這件事，其實遭遇有一點奇妙^500
+                        p 16歲在學校電腦課開始寫程式，但是都在打混，學得不好，於是對寫程式有恐懼XD^500
+                        p 喔對，那時我的期末上機考了0分QAQ^500
+                        p 到了升高三暑假，才發現似乎有一點喜歡寫程式^500
+                        p 於是我從基本的C/C++著手，暑假後，便把它們弄懂了^500
+                        p 學測後，因為繁星計畫，提前上了大學^500
+                        p 此時正值App火紅的時候，於是便把目標放在Android上^500
+                        p 升大二暑假，除了在竹科高登智慧科技寫App，也接觸Codecademy的前端課程^500
+                        p 之後改良了裡面的程式，做出自己的第一個網頁前端作品——Dottarry^1000
+                        p 研究了一個學期的前端，從什麼都不會，到現在可以掌握前端大多的知識^500
+                        p 很高興，在梅竹黑客松得了UI/UX獎和微軟組第三名^1000
+                        p 此外，我也開始接案，並在Kajin Health擔任小小前端工程師^500
+                        p 大二上學期，我學了很多，但也發現自己的不足^500
+                        p 然而，最重要的是，我發現寫程式的樂趣了:)^500
+                        p 我想，夢想是需要自己走出來的^1000
+                        p So......^1000
+                        p Watch me and look at me!^4000
+                    span#page-about-type-span
+                div.about-div
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.story
+                    div.mark 圖片版權：小王子電影版
+            div.page#page-project
+                div.list-div
+                    h1 Project
+                    ul
+                        li
+                            a 我的線上簡歷
+                        li
+                            a DumplingJudge
+                        li
+                            a.red FireWork
+                        li
+                            a Dottarry
+                        li
+                            a 樂透夢想券
+                        li
+                            a BTUmbrella
+                div.content-div
+                    div.content-div-container
+                        div.content
+                            div.content-container
+                                h1 我的線上簡歷
+                                h2 2016/03 ~ now
+                                h3 Knowledge:
+                                h4 Inkscape, Jquery, Jade, Scss, D3.js
+                                h3 Learn:
+                                p 我的線上簡歷就是現在這份網頁，對我而言是一個突破，因為它是第一個由我自己設計美工，並著重 UI/UX 的前端網頁。以往我所寫的網頁不是對於UI/UX沒有著墨，只是主要把重心放在Javascript的撰寫和結構上。
+                                p 這個網頁中我結合了很多我喜歡的 Javscript library，包含 slick.js、typed.js、bar.js......，在加上各種 css 的 animation 和 transition，呈現豐富的視覺感受。色彩的部分，文字主要為綠色、白色，字體採用 google font api 中的 Jura 和 Indie flower，前者帶有程式碼整整齊齊的風格，而後者注入一點俏皮的味道。容器的部分，則有微透明的黑色背景所構成，可以適度呈現輕鬆的網站氣息。封面的 logo 也是使用開源軟體 Inkscape 所繪製的，希望你會喜歡我設計的網頁。
+                                h3 Link:
+                                a(href="https://noootown.github.io/resume" target="_new") https://noootown.github.io/resume
+                        div.content
+                            div.content-container
+                                h1 DumplingJudge
+                                h2 2016/02/27 ~ 2016/02/29
+                                h3 Knowledge:
+                                h4 Reactjs, Nodejs, Jade, Mongodb, Scss, Heroku
+                                h3 Learn:
+                                p 這個網頁是為了系上的活動做的，純粹是為了好玩。
+                                p 之前的 Firework 專案其實也有使用過 Nodejs，但是沒有那麼的深入研究。這次的小專案有實作一個即時評分系統，評審在給分後，會即時在網頁上顯示給分，讓大家看到。此外，為了防止鬧場，也有實作簡單的登入系統，並結合 Mongodb 做驗證。經過這個專案後，以後要開啟任何包含後端的專案，我想都能夠快速上手。
+                                h3 Link:
+                                a(href="https://eecsdumplingjudge.herokuapp.com" target="_new") https://eecsdumplingjudge.herokuapp.com
+                        div.content
+                            div.content-container
+                                h1 FireWork
+                                h2 2015/10 ~ now
+                                h3 Knowledge:
+                                h4 Reactjs, Jquery, html5 canvas api, Nodejs, Mongodb, Youtube api, physics
+                                h3 Learn:
+                                p 會寫這個網頁，是當初看到煙火覺得很酷，但卻沒有專案將它實作在網頁上，因此便嘗試想要讓煙火可以在瀏覽器上放。
+                                p 這個專案是我做的第二個大型網頁專案，學到了很多東西。一開始憑藉著一些高中物理的知識，很快的就把煙火的 prototype 做出來了，雖然成功做出了煙火，但是卻十分的 lag。於是又花了很多的心力，想要把任何可能造成繪圖效率變慢的因素找出來。在這過程中，我學會了如何改變繪製的順序，大幅的優化繪製的效率；我也學會了使用 javascript prototype，並設計更良好的程式碼，又把同一時間能繪製的煙火數大大的提升。此外，為了使煙火更有真實性，我也加入了空氣阻力等因素。
+                                p 接著，參酌網友的意見，我也不斷的重構程式碼。一開始本來打算用 Jquery 直接做出這個系統，但是專案進行到一半就崩潰了。這時便導入 Reactjs，成功的加入了煙火回放系統和 Youtube 音樂配樂。
+                                p 希望你喜歡我的電子煙火！
+                                h3 Link:
+                                a(href="https://noootown.github.io/FireWork/" target="_new") https://noootown.github.io/FireWork/
+                        div.content
+                            div.content-container
+                                h1 Dottarry
+                                h2 2015/08 ~ 2015/09
+                                h3 Knowledge:
+                                h4 Jquery, css, html, rwd
+                                h3 Learn:
+                                p Dottarry是我做的第一個網頁專案。他的原型是改自Codecademy的程式。
+                                p 因為這是我的第一支程式，所以做起來很掙扎。不過正是因為如此，我學到了很多實作的細節，不管是在Javascript、html 或 css 上，對未來專案的幫助都很大。這支程式的主要功能是在實作一個點點版的小畫家，最後可以把做出來的點點圖下載下來，非常的酷！
+                                h3 Link:
+                                a(href="https://noootown.github.io/Dottarry/" target="_new") https://noootown.github.io/Dottarry/
+                        div.content
+                            div.content-container
+                                h1 樂透夢想券
+                                h2 2014/12 ~ 2015/04
+                                h3 Knowledge:
+                                h4 Android, Java
+                                h3 Learn:
+                                p 這支程式是和其它學校的同學一起合作的。當初是PTT上在徵人要一起做，我去參加的。雖然是無給職，但我從這個專案學到了怎麼當一個開發者和創業者。當一位開發者，不僅僅是要把東西弄出來，更要做的漂亮。在實作這支程式的過程中，團隊內的人也不斷的討論，著墨 UI/UX、前後端配合……，這些觀念都是帶我走向創業者的重要發軔。
+                                p 「樂透夢想券」是一個公益導向的APP，運作模式是使用者點擊廣告，我們將這些廣告的一部分金額當作獎金，另一部分捐出去做公益。而我在這個團隊裡擔任的是前端開發者的職務。在這裡，我除了處理前端的顯示和邏輯外，也處理 icon 設計的部分。
+                                h3 Link:
+                                a(href="https://noootown.wordpress.com/2015/05/31/lotterydream/" target="_new") https://noootown.wordpress.com/2015/05/31/lotterydream/
+                                div.content-picture.dreamapp
+                        div.content
+                            div.content-container
+                                h1 BTUmbrella
+                                h2 2014/12 ~ 2014/12
+                                h3 Knowledge:
+                                h4 Android, Java
+                                h3 Learn:
+                                p 這支程式是為了社團所做的，使用到藍芽傳輸資料。
+                                h3 Link:
+                                a(href="https://noootown.wordpress.com/2015/05/30/btumbrella/" target="_new") https://noootown.wordpress.com/2015/05/30/btumbrella/
+                                div.content-picture.btumbrella
+                        div.content
+                            div.content-container
+                                div.main-title-div
+                                    h1.main-title 點選左邊 project，看看我做了些什麼！
+                                    h1.main-title 動動滑鼠，點點鍵盤，有彩蛋喔！
+            div.page#page-work
+                div.work-block
+                    h1 網頁前端工程師Part-Time
+                    h3 日期：
+                    h2 2016/01 ~ now
+                    h3 Company:
+                    h2 Kajin Health
+                    h3 工作項目：
+                    p - 開發網頁前端程式
+                    p - 改進網頁UI/UX
+                    p - 溝通設計師和後端
+                div.work-block
+                    h1 電子實驗助教
+                    h3 日期：
+                    h2 2016/09 ~ 2016/01
+                    h3 Company:
+                    h2 國立交通大學
+                    h3 工作項目：
+                    p - 改考卷
+                    p - 改考卷
+                    p - 改考卷
+                div.work-block
+                    h1 Android工程師Part-Time
+                    h3 日期：
+                    h2 2015/05 ~ 2016/09
+                    h3 Company:
+                    h2 高登智慧科技
+                    h3 工作項目：
+                    p - Android app debug
+                    p - 改進畫面UI/UX
+                    p - 產品測試
+        div.return-btn
+
+
+
+
+
+
