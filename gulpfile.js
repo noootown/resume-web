@@ -12,26 +12,26 @@ gulp.task('watch',['styles'] ,function () {
 gulp.task('server', function() {
     browserSync.init({
         server: {
-            baseDir: './public' 
+            baseDir: '.' 
         }
     });
 });
 
 gulp.task('js', function(){
     gulp.src('src/js/*.js')
-        .pipe(gulp.dest('./public/js'));
+        .pipe(gulp.dest('./js'));
 });
 
 gulp.task('styles', function () {
     gulp.src('src/scss/*.scss')
     .pipe(gulpSass()) 
-    .pipe(gulp.dest('./public/css'));
+    .pipe(gulp.dest('./css'));
 });
 
 gulp.task('views', function () {
     gulp.src('src/jade/*.jade')
     .pipe(gulpJade()) 
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('default',['server','watch']);
