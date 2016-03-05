@@ -74,6 +74,17 @@ window.fps=30;
         FireworkPoint.prototype.ctx=firework.ctx;
         draw();
         //--------firework-----------
+        if($(window).width()<$(window).height())
+            $('#error-layout').addClass('active');
+        $(window).resize(function(){
+            if($(window).width()<$(window).height())
+                $('#error-layout').addClass('active');
+            else{
+                $('#error-layout').removeClass('active');
+                $('.mycanvas').attr('height',$(window).height());
+                $('.mycanvas').attr('width',$(window).width());
+            }
+        });
     });
     function draw(){
         if(flag===true){
@@ -87,8 +98,8 @@ window.fps=30;
     function showContent(page){//0 1 2 3 skill about career job
         $('.icon-block').addClass('active');
         $('.word-small-block').addClass('active');
-        $('.return-btn').addClass('active');
         setTimeout(function(){
+            $('.return-btn').addClass('active');
             if(page===0)
                 showPageSkill();
             else if(page===1)

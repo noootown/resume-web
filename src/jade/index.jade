@@ -1,59 +1,52 @@
 doctype html
 html
     head
-        meta(name="viewport", content="initial-scale=0.2, user-scalable=no")
+        meta(name="viewport", content="initial-scale=1, user-scalable=yes")
         meta(content="邱弘毅 noootown", property="og:site_name")
         meta(content="邱弘毅 noootown" property="og:title")
         meta(content="Watch me and look at me." property="og:description")
-        meta(content="" property="og:url")
+        meta(content="https://noootown.github.io/resume" property="og:url")
         meta(content="website" property="og:type")
-        meta(content="" property="og:image")
+        meta(content="http://noootown.github.io/resume/images/cover.png" property="og:image")
         
         title 邱弘毅 noootown
-        link(rel='stylesheet', href='/css/main.css')
+        link(rel='stylesheet', href='css/main.css')
         link(href='https://fonts.googleapis.com/css?family=Indie+Flower', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Jura', rel='stylesheet', type='text/css')
         link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', rel='stylesheet')
-        script(src='/js/jquery-2.1.4.min.js')
-        script(src='/js/slick.min.js')
-        script(src='/js/scrollreveal.min.js')
-        script(src='/js/typed.min.js')
-        script(src='/js/d3.min.js')
-        script(src='/js/bar.js')
-        script(src='/js/fireworkpoints.js')
-        script(src='/js/fireworkproperties.js')
-        script(src='/js/manager.js')
-        script(src='/js/main.js')
-        style.
-            @font-face {
-            font-family: 'cwTeXHei';
-            font-style: normal;
-            font-weight: 500;
-            src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
-            src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
-            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
-            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
-            url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
-            }
+        script(src='js/jquery-2.1.4.min.js')
+        script(src='js/typed.min.js')
+        script(src='js/d3.min.js')
+        script(src='js/bar.js')
+        script(src='js/fireworkpoints.js')
+        script(src='js/fireworkproperties.js')
+        script(src='js/manager.js')
+        script(src='js/main.js')
     body
+        div#error-layout
+            h1 履歷橫著看比較潮喔~~
         div#main
             canvas.mycanvas
             div.main-block
                 div.icon-block#block-skill
-                    img(src='./images/hammer.png')#hammer
-                    img(src='./images/nail.png')#nail
+                    div.img-div
+                        img(src='./images/hammer.png')#hammer
+                        img(src='./images/nail.png')#nail
                     h3 Skill
                 div.icon-block#block-about
-                    img(src='./images/chat.png')#chat
-                    img(src='./images/person.png')#person
+                    div.img-div
+                        img(src='./images/chat.png')#chat
+                        img(src='./images/person.png')#person
                     h3 About
                 div.icon-block#block-project
-                    img(src='./images/keyboard.png')#keyboard
-                    img(src='./images/mouse.png')#mouse
+                    div.img-div
+                        img(src='./images/keyboard.png')#keyboard
+                        img(src='./images/mouse.png')#mouse
                     h3 Project
                 div.icon-block#block-work
-                    img(src='./images/job.png')#job
-                    img(src='./images/body.png')#body
+                    div.img-div
+                        img(src='./images/job.png')#job
+                        img(src='./images/body.png')#body
                     h3 Work
             div.word-block
                 div.word-small-block#word-small-block1
@@ -187,7 +180,7 @@ html
                                 h1 我的線上簡歷
                                 h2 2016/03 ~ now
                                 h3 Knowledge:
-                                h4 Inkscape, Jquery, Jade, Scss, D3.js
+                                h4 Inkscape, Jquery, Jade, Scss, D3.js, RWD
                                 h3 Learn:
                                 p 我的線上簡歷就是現在這份網頁，對我而言是一個突破，因為它是第一個由我自己設計美工，並著重 UI/UX 的前端網頁。以往我所寫的網頁不是對於UI/UX沒有著墨，只是主要把重心放在Javascript的撰寫和結構上。
                                 p 這個網頁中我結合了很多我喜歡的 Javscript library，包含 slick.js、typed.js、bar.js......，在加上各種 css 的 animation 和 transition，呈現豐富的視覺感受。色彩的部分，文字主要為綠色、白色，字體採用 google font api 中的 Jura 和 Indie flower，前者帶有程式碼整整齊齊的風格，而後者注入一點俏皮的味道。容器的部分，則有微透明的黑色背景所構成，可以適度呈現輕鬆的網站氣息。封面的 logo 也是使用開源軟體 Inkscape 所繪製的，希望你會喜歡我設計的網頁。
@@ -258,15 +251,15 @@ html
                                     h1.main-title 動動滑鼠，點點鍵盤，有彩蛋喔！
             div.page#page-work
                 div.work-block
-                    h1 網頁前端工程師Part-Time
+                    h1 Android 工程師 Part-Time
                     h3 日期：
-                    h2 2016/01 ~ now
+                    h2 2015/05 ~ 2016/09
                     h3 Company:
-                    h2 Kajin Health
+                    h2 高登智慧科技
                     h3 工作項目：
-                    p - 開發網頁前端程式
-                    p - 改進網頁UI/UX
-                    p - 溝通設計師和後端
+                    p - Android app debug
+                    p - 改進畫面UI/UX
+                    p - 產品測試
                 div.work-block
                     h1 電子實驗助教
                     h3 日期：
@@ -278,15 +271,15 @@ html
                     p - 改考卷
                     p - 改考卷
                 div.work-block
-                    h1 Android工程師Part-Time
+                    h1 網頁前端工程師 Part-Time
                     h3 日期：
-                    h2 2015/05 ~ 2016/09
+                    h2 2016/01 ~ now
                     h3 Company:
-                    h2 高登智慧科技
+                    h2 Kajin Health
                     h3 工作項目：
-                    p - Android app debug
-                    p - 改進畫面UI/UX
-                    p - 產品測試
+                    p - 開發網頁前端程式
+                    p - 改進網頁UI/UX
+                    p - 溝通設計師和後端
         div.return-btn
 
 
