@@ -842,7 +842,7 @@ canvas {
   .word-block p, .word-block span#main-typed span {
     font-size: 12px;
     font-size: 0.75rem;
-    line-height: 15px;
+    line-height: 16px;
     margin: 12px 0 6px 0; }
     .word-block p.content, .word-block span#main-typed span.content {
       padding-left: 24px; }
@@ -851,6 +851,9 @@ canvas {
     .word-block #word-small-block1 ul li {
       font-size: 30px;
       font-size: 1.875rem; }
+      .word-block #word-small-block1 ul li:hover {
+        font-size: 40px;
+        font-size: 2.5rem; }
   .word-block #word-small-block1 {
     padding: 24px; }
   .word-block #word-small-block2 {
@@ -950,21 +953,31 @@ canvas {
   .word-block p {
     font-size: 8px;
     font-size: 0.5rem;
-    line-height: 10px;
-    margin: 8px 0 4px 0; }
-  .word-block span#main-typed br + br {
-    display: none; }
-  .word-block span#main-typed span.content {
-    padding-left: 16px; }
+    line-height: 16px;
+    margin: 4px 0 0 0; }
+  .word-block span#main-typed {
+    max-height: 200px; }
+    .word-block span#main-typed br + br {
+      display: none; }
+    .word-block span#main-typed br:nth-child(1) {
+      display: none; }
+    .word-block span#main-typed span.content {
+      padding-left: 16px; }
   .word-block #word-small-block1 {
     padding: 16px; }
   .word-block #word-small-block1 ul {
     width: calc(100% - 32px); }
     .word-block #word-small-block1 ul li {
-      font-size: 20px;
-      font-size: 1.25rem; }
+      font-size: 15px;
+      font-size: 0.9375rem; }
+      .word-block #word-small-block1 ul li:hover {
+        font-size: 20px;
+        font-size: 1.25rem; }
   .word-block #word-small-block2 {
-    padding: 6px 16px; }
+    padding: 10px;
+    overflow-y: scroll; }
+    .word-block #word-small-block2 p {
+      margin: 0; }
   #page-skill div.skill-block {
     padding: 20px; }
   #page-skill div.skill-block h1.title {
@@ -999,14 +1012,14 @@ canvas {
   #page-project .content .content-container p {
     font-size: 8px;
     font-size: 0.5rem;
-    line-height: 10px;
+    line-height: 16px;
     text-indent: 8px;
     margin-bottom: 10px; }
   #page-project .content .content-container a {
     font-size: 10px;
     font-size: 0.625rem; }
   #page-project .list-div {
-    width: calc(25% - 8px);
+    width: calc(30% - 8px);
     padding: 18px; }
     #page-project .list-div h1 {
       font-size: 14px;
@@ -1018,7 +1031,7 @@ canvas {
         font-size: 8px;
         font-size: 0.5rem; }
   #page-project .content-div {
-    width: calc(75% - 8px); }
+    width: calc(70% - 8px); }
   .return-btn {
     width: 25px;
     height: 25px; }
@@ -1042,7 +1055,7 @@ canvas {
     #page-work .work-block p {
       font-size: 10px;
       font-size: 0.625rem;
-      line-height: 10px;
+      line-height: 16px;
       margin-bottom: 10px; }
     #page-work .work-block a {
       font-size: 10px;

@@ -952,7 +952,7 @@ canvas{
         }
         p,span#main-typed span{
             @include font-size(12);
-            line-height:15px;
+            line-height:16px;
             margin:12px 0 6px 0;
             &.content{
                 padding-left:24px;
@@ -963,6 +963,9 @@ canvas{
         width:calc(100% - 48px);
         li{
             @include font-size(30);
+            &:hover{
+                @include font-size(40);
+            }
         }
     }
     .word-block #word-small-block1{
@@ -1082,11 +1085,15 @@ canvas{
         }
         p{
             @include font-size(8);
-            line-height:10px;
-            margin:8px 0 4px 0;
+            line-height:16px;
+            margin:4px 0 0 0;
         }
         span#main-typed{
+            max-height:200px;
             br+br{
+                display:none;
+            }
+            br:nth-child(1){
                 display:none;
             }
             span.content{
@@ -1100,11 +1107,18 @@ canvas{
     .word-block #word-small-block1 ul{
         width:calc(100% - 32px);
         li{
-            @include font-size(20);
+            @include font-size(15);
+            &:hover{
+                @include font-size(20);
+            }
         }
     }
     .word-block #word-small-block2{
-       padding:6px 16px;
+        padding:10px;
+        p{
+            margin:0;
+        }
+        overflow-y:scroll;
     }
     #page-skill div.skill-block{
         padding:20px;
@@ -1148,7 +1162,7 @@ canvas{
             }
             p{
                 @include font-size(8);
-                line-height:10px;
+                line-height:16px;
                 text-indent:8px;
                 margin-bottom:10px;
             }
@@ -1157,7 +1171,7 @@ canvas{
             }
         }
         .list-div{
-            width:calc(25% - 8px);
+            width:calc(30% - 8px);
             padding:18px;
             h1{
                 @include font-size(14);
@@ -1171,7 +1185,7 @@ canvas{
             }
         }
         .content-div{
-            width:calc(75% - 8px)
+            width:calc(70% - 8px)
         }
     }
     .return-btn{
@@ -1197,7 +1211,7 @@ canvas{
         }
         p{
             @include font-size(10);
-            line-height:10px;
+            line-height:16px;
             margin-bottom:10px;
         }
         a{
