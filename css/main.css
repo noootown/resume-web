@@ -263,7 +263,8 @@ canvas {
   height: 100%;
   float: right;
   box-sizing: border-box;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-family: 'cwTeXHei', serif; }
   .word-block #word-small-block1 {
     position: relative;
     width: calc(100% - 4px);
@@ -392,7 +393,8 @@ canvas {
       top: calc(50% - 13px);
       position: relative;
       font-size: 26px;
-      font-size: 1.625rem; }
+      font-size: 1.625rem;
+      font-family: 'cwTeXHei', serif; }
   #page-about .about-div {
     width: 100%;
     height: calc(90% - 4px);
@@ -488,6 +490,8 @@ canvas {
         text-decoration: none; }
         #page-project .list-div li a.red {
           color: #FF0000; }
+        #page-project .list-div li a.chinese {
+          font-family: 'cwTeXHei', serif; }
       #page-project .list-div li:hover a {
         color: #0CE30C; }
     #page-project .list-div::-webkit-scrollbar {
@@ -571,6 +575,7 @@ canvas {
         margin-bottom: 20px;
         color: #0CE30C; }
         #page-project .content .content-container h1.main-title {
+          font-family: 'cwTeXHei', serif;
           text-align: center; }
       #page-project .content .content-container h2 {
         font-size: 20px;
@@ -586,6 +591,7 @@ canvas {
         font-size: 1.25rem;
         text-indent: 40px; }
       #page-project .content .content-container p {
+        font-family: 'cwTeXHei', serif;
         font-size: 17px;
         font-size: 1.0625rem;
         line-height: 22px;
@@ -635,7 +641,8 @@ canvas {
   left: calc(10% + 8px);
   position: absolute;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  font-family: 'cwTeXHei', serif; }
   #page-work .work-block {
     width: calc(33% - 4px);
     height: 100%;
@@ -671,9 +678,11 @@ canvas {
     #page-work .work-block .main-title-div {
       position: relative;
       top: 40%; }
+    #page-work .work-block .jura {
+      font-family: 'Jura',sans-serif; }
     #page-work .work-block h1 {
-      font-size: 24px;
-      font-size: 1.5rem;
+      font-size: 22px;
+      font-size: 1.375rem;
       margin-bottom: 30px;
       color: #0CE30C;
       text-align: center; }

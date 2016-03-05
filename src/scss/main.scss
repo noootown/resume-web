@@ -291,6 +291,7 @@ canvas{
     float:right;
     box-sizing:border-box;
     color:$white;
+    font-family: 'cwTeXHei', serif;
     #word-small-block1{
         @extend .black-background;
         &.active{
@@ -439,6 +440,7 @@ canvas{
             top:calc(50% - 13px);
             position:relative;
             @include font-size(26);
+            font-family: 'cwTeXHei', serif;
         }
     }
     .about-div{
@@ -553,6 +555,9 @@ canvas{
                 &.red{
                     color:#FF0000;
                 }
+                &.chinese{
+                    font-family: 'cwTeXHei', serif;
+                }
             }
             &:hover{
                 a{
@@ -635,6 +640,7 @@ canvas{
                 margin-bottom:20px;
                 color:$green;
                 &.main-title{
+                    font-family: 'cwTeXHei', serif;
                     text-align:center;
                 }
             }
@@ -652,6 +658,7 @@ canvas{
                 text-indent:40px;
             }
             p{
+                font-family: 'cwTeXHei', serif;
                 @include font-size(17);
                 line-height:22px;
                 text-indent:34px;
@@ -715,6 +722,7 @@ canvas{
     position:absolute;
     margin:0 auto;
     text-align:center;
+    font-family: 'cwTeXHei', serif;
     .work-block{
         @extend .black-background;
         width:calc(33% - 4px);
@@ -751,8 +759,11 @@ canvas{
             position:relative;
             top:40%;
         }
+        .jura{
+            font-family:'Jura',sans-serif;
+        }
         h1{
-            @include font-size(24);
+            @include font-size(22);
             margin-bottom:30px;
             color:$green;
             text-align:center;
