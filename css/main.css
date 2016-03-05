@@ -101,6 +101,8 @@ html body {
   height: 100%;
   font-family: 'Jura',sans-serif;
   font-weight: bold; }
+  html body .chinese {
+    font-family: 'cwTeXHei', serif; }
 
 button {
   -o-user-select: none;
@@ -490,8 +492,6 @@ canvas {
         text-decoration: none; }
         #page-project .list-div li a.red {
           color: #FF0000; }
-        #page-project .list-div li a.chinese {
-          font-family: 'cwTeXHei', serif; }
       #page-project .list-div li:hover a {
         color: #0CE30C; }
     #page-project .list-div::-webkit-scrollbar {

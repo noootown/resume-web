@@ -89,6 +89,9 @@ html body{
     height:100%;
     font-family:'Jura',sans-serif;
     font-weight:bold;
+    .chinese{
+        font-family: 'cwTeXHei', serif;
+    }
 }
 button{
     @include noselect();
@@ -554,9 +557,6 @@ canvas{
                 text-decoration:none;
                 &.red{
                     color:#FF0000;
-                }
-                &.chinese{
-                    font-family: 'cwTeXHei', serif;
                 }
             }
             &:hover{
