@@ -1,9 +1,11 @@
 
-#My resume
+# NOT MAINTAINED
+
+## My resume
 
 Nothing special. Just my resume.
 
-#Tools:
+## Tools:
 Front-end:
 - Jquery
 - SCSS
@@ -13,7 +15,7 @@ Front-end:
 
 
 
-#Libraries:
+## Libraries:
 - https://github.com/sheethub/2016electionchart
 - https://github.com/mattboldt/typed.js
 
